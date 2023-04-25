@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*-----------------------------Подключение шрифтов локально-----------------------------*/
+
+@font-face {
+    font-family: "Onest Light";
+  src: url("assets/fonts/OnestLight1602-hint.woff") format("woff"), url("assets/fonts/OnestLight1602-hint.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Onest Media";
+  src: url("assets/fonts/OnestMedium1602-hint.woff") format("woff"), url("assets/fonts/OnestMedium1602-hint.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Onest Regular";
+  src: url("assets/fonts/OnestRegular1602-hint.woff") format("woff"), url("assets/fonts/OnestRegular1602-hint.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Monument Regular";
+  src: url("assets/fonts/MonumentExtended-Regular.otf") format("opentype");
+}

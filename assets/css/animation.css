@@ -1,0 +1,1862 @@
+@charset "UTF-8";
+
+/*---Подключение шрифтов--*/
+
+@import url("assets/css/dispatcher.min.css");
+
+/*---Переменные START---*/
+
+/*---Переменные END---*/
+
+.main-image {
+    max-width: 611.96px;
+    max-height: 657.96px;
+    position: absolute;
+    top: 515px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -25%);
+    -ms-transform: translate(-50%, -25%);
+    transform: translate(-50%, -25%);
+    -webkit-animation: rotate-main 60s linear infinite;
+    animation: rotate-main 60s linear infinite;
+}
+
+.main-image img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes rotate-main {
+    0% {
+        -webkit-transform: translate(-50%, -25%) rotate(0deg);
+        transform: translate(-50%, -25%) rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: translate(-50%, -25%) rotate(360deg);
+        transform: translate(-50%, -25%) rotate(360deg);
+    }
+}
+
+@keyframes rotate-main {
+    0% {
+        -webkit-transform: translate(-50%, -25%) rotate(0deg);
+        transform: translate(-50%, -25%) rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: translate(-50%, -25%) rotate(360deg);
+        transform: translate(-50%, -25%) rotate(360deg);
+    }
+}
+
+.detail-left {
+    position: absolute;
+    max-width: 218.52px;
+    max-height: 218.52px;
+    top: 27%;
+    left: -6%;
+    -webkit-animation: move-and-rotate 10s linear infinite;
+    animation: move-and-rotate 10s linear infinite;
+}
+
+.detail-left img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate {
+    0% {
+        left: -6%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 2%;
+        -webkit-transform: rotate(40deg);
+        transform: rotate(40deg);
+    }
+
+    100% {
+        left: -6%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate {
+    0% {
+        left: -6%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 2%;
+        -webkit-transform: rotate(40deg);
+        transform: rotate(40deg);
+    }
+
+    100% {
+        left: -6%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-left-small {
+    position: absolute;
+    max-width: 146.02px;
+    max-height: 90.14px;
+    top: 42%;
+    left: 22%;
+    -webkit-animation: move-and-rotate-small 15s linear infinite;
+    animation: move-and-rotate-small 15s linear infinite;
+}
+
+.detail-left-small img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-small {
+    0% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 24%;
+        -webkit-transform: rotate(40deg);
+        transform: rotate(40deg);
+    }
+
+    100% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-small {
+    0% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 24%;
+        -webkit-transform: rotate(40deg);
+        transform: rotate(40deg);
+    }
+
+    100% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-left-middle {
+    position: absolute;
+    max-width: 280.15px;
+    max-height: 163.9px;
+    top: 55%;
+    left: 6%;
+    -webkit-animation: move-and-rotate-middle 20s linear infinite;
+    animation: move-and-rotate-middle 20s linear infinite;
+}
+
+.detail-left-middle img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-middle {
+    0% {
+        left: 3%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 20%;
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    100% {
+        left: 3%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-middle {
+    0% {
+        left: 3%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 20%;
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    100% {
+        left: 3%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-left-down {
+    position: absolute;
+    max-width: 263.16px;
+    max-height: 274.65px;
+    bottom: -15%;
+    left: 12%;
+    -webkit-animation: move-and-rotate-down 15s linear infinite;
+    animation: move-and-rotate-down 15s linear infinite;
+}
+
+.detail-left-down img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-down {
+    0% {
+        left: 12%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 20%;
+        -webkit-transform: rotate(-70deg);
+        transform: rotate(-70deg);
+    }
+
+    100% {
+        left: 12%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-down {
+    0% {
+        left: 12%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 20%;
+        -webkit-transform: rotate(-70deg);
+        transform: rotate(-70deg);
+    }
+
+    100% {
+        left: 12%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-right-top {
+    position: absolute;
+    max-width: 130.08px;
+    max-height: 74.42px;
+    top: 34%;
+    right: 15%;
+    -webkit-animation: move-and-rotate-right-top 15s linear infinite;
+    animation: move-and-rotate-right-top 15s linear infinite;
+}
+
+.detail-right-top img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-right-top {
+    0% {
+        right: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 22%;
+        -webkit-transform: rotate(-50deg);
+        transform: rotate(-50deg);
+    }
+
+    100% {
+        right: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-right-top {
+    0% {
+        right: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 22%;
+        -webkit-transform: rotate(-50deg);
+        transform: rotate(-50deg);
+    }
+
+    100% {
+        right: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-right-undertop {
+    position: absolute;
+    width: 170.11px;
+    height: 97.32px;
+    top: 40%;
+    right: 12%;
+    -webkit-animation: move-and-rotate-undertoptop 22s linear infinite;
+    animation: move-and-rotate-undertoptop 22s linear infinite;
+}
+
+.detail-right-undertop img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-undertoptop {
+    0% {
+        right: 12%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 27%;
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        right: 12%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-undertoptop {
+    0% {
+        right: 12%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 27%;
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        right: 12%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-right-middle {
+    position: absolute;
+    width: 229.62px;
+    height: 239.64px;
+    top: 63%;
+    right: 10%;
+    -webkit-animation: move-and-rotate-right-middle 30s linear infinite;
+    animation: move-and-rotate-right-middle 30s linear infinite;
+}
+
+.detail-right-middle img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-right-middle {
+    0% {
+        right: 5%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 20%;
+        -webkit-transform: rotate(-100deg);
+        transform: rotate(-100deg);
+    }
+
+    100% {
+        right: 5%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-right-middle {
+    0% {
+        right: 5%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 20%;
+        -webkit-transform: rotate(-100deg);
+        transform: rotate(-100deg);
+    }
+
+    100% {
+        right: 5%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-right-bottom {
+    position: absolute;
+    width: 277.02px;
+    height: 153.4px;
+    bottom: -1%;
+    right: 24%;
+    -webkit-animation: move-and-rotate-right-bottom 40s linear infinite;
+    animation: move-and-rotate-right-bottom 40s linear infinite;
+}
+
+.detail-right-bottom img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-right-bottom {
+    0% {
+        right: 10%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 25%;
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        right: 10%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-right-bottom {
+    0% {
+        right: 10%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 25%;
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        right: 10%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-mob-top {
+    display: none;
+    position: absolute;
+    width: 62.09px;
+    height: 35.52px;
+    top: 8%;
+    right: 47%;
+    -webkit-animation: move-and-rotate-mob-top 10s linear infinite;
+    animation: move-and-rotate-mob-top 10s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-mob-top {
+    0% {
+        right: 47%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+
+    100% {
+        right: 47%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-mob-top {
+    0% {
+        right: 47%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+
+    100% {
+        right: 47%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-mob-undertop {
+    display: none;
+    position: absolute;
+    width: 41.36px;
+    height: 23.66px;
+    top: 15%;
+    right: 6%;
+    -webkit-animation: move-and-rotate-mob-undertop 15s linear infinite;
+    animation: move-and-rotate-mob-undertop 15s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-mob-undertop {
+    0% {
+        right: -4%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 15%;
+        -webkit-transform: rotate(100deg);
+        transform: rotate(100deg);
+    }
+
+    100% {
+        right: -4%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-mob-undertop {
+    0% {
+        right: -4%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 15%;
+        -webkit-transform: rotate(100deg);
+        transform: rotate(100deg);
+    }
+
+    100% {
+        right: -4%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-mob-middle {
+    display: none;
+    position: absolute;
+    width: 81.39px;
+    height: 50.24px;
+    top: 35%;
+    right: 9%;
+    -webkit-animation: move-and-rotate-mob-middle 25s linear infinite;
+    animation: move-and-rotate-mob-middle 25s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-mob-middle {
+    0% {
+        right: 9%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: -25%;
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+    }
+
+    100% {
+        right: 9%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-mob-middle {
+    0% {
+        right: 9%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: -25%;
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+    }
+
+    100% {
+        right: 9%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-mob-left {
+    display: none;
+    position: absolute;
+    width: 91.07px;
+    height: 95.04px;
+    top: 26%;
+    left: -13%;
+    -webkit-animation: move-and-rotate-mob-left 15s linear infinite;
+    animation: move-and-rotate-mob-left 15s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-mob-left {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes move-and-rotate-mob-left {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.detail-mob-sharp-middle {
+    display: none;
+    position: absolute;
+    width: 60.21px;
+    height: 34.44px;
+    top: 43%;
+    left: 15%;
+    -webkit-animation: move-and-rotate-mob-sharp-middle 15s linear infinite;
+    animation: move-and-rotate-mob-sharp-middle 15s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-mob-sharp-middle {
+    0% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: -5%;
+        -webkit-transform: rotate(-50deg);
+        transform: rotate(-50deg);
+    }
+
+    100% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-mob-sharp-middle {
+    0% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: -5%;
+        -webkit-transform: rotate(-50deg);
+        transform: rotate(-50deg);
+    }
+
+    100% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-mob-blur-middle {
+    display: none;
+    position: absolute;
+    width: 43.41px;
+    height: 24.83px;
+    top: 43%;
+    left: 15%;
+    -webkit-animation: move-and-rotate-mob-blur-middle 25s linear infinite;
+    animation: move-and-rotate-mob-blur-middle 25s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-mob-blur-middle {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes move-and-rotate-mob-blur-middle {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+.detail-mob-bottom {
+    display: none;
+    position: absolute;
+    width: 106.3px;
+    height: 65.62px;
+    bottom: 4%;
+    left: 15%;
+    -webkit-animation: move-and-rotate-mob-bottom 35s linear infinite;
+    animation: move-and-rotate-mob-bottom 35s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-mob-bottom {
+    0% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 100%;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    100% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-mob-bottom {
+    0% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 100%;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    100% {
+        left: 15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-mob-bottom-scale {
+    display: none;
+    position: absolute;
+    width: 277.02px;
+    height: 153.4px;
+    bottom: -6%;
+    right: -30%;
+    -webkit-animation: move-and-rotate-mob-bottom-scale 50s linear infinite;
+    animation: move-and-rotate-mob-bottom-scale 50s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-mob-bottom-scale {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes move-and-rotate-mob-bottom-scale {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+.detail-page-left {
+    position: absolute;
+    max-width: 218.52px;
+    max-height: 218.52px;
+    top: 26%;
+    left: -3%;
+    -webkit-animation: rotate-page-left 20s linear infinite;
+    animation: rotate-page-left 20s linear infinite;
+    z-index: -1;
+}
+
+.detail-page-left img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes rotate-page-left {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-page-left {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.detail-page-right {
+    position: absolute;
+    max-width: 218.52px;
+    max-height: 218.52px;
+    top: 15%;
+    right: -4%;
+    -webkit-animation: move-and-rotate-page-right 25s linear infinite;
+    animation: move-and-rotate-page-right 25s linear infinite;
+}
+
+.detail-page-right img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-page-right {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes move-and-rotate-page-right {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+.detail-nft-right {
+    position: absolute;
+    max-width: 468px;
+    max-height: 402px;
+    top: 29%;
+    right: 14%;
+    z-index: -1;
+    -webkit-animation: move-and-rotate-nft-right 30s linear infinite;
+    animation: move-and-rotate-nft-right 30s linear infinite;
+}
+
+.detail-nft-right img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-nft-right {
+    0% {
+        right: 14%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 25%;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    100% {
+        right: 14%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-nft-right {
+    0% {
+        right: 14%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 25%;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    100% {
+        right: 14%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-nft-left {
+    position: absolute;
+    max-width: 564.47px;
+    max-height: 565.25px;
+    top: 45%;
+    left: 7%;
+    z-index: -1;
+    -webkit-animation: move-and-rotate-nft-left 20s linear infinite;
+    animation: move-and-rotate-nft-left 20s linear infinite;
+}
+
+.detail-nft-left img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-nft-left {
+    0% {
+        left: 7%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 20%;
+        -webkit-transform: rotate(-70deg);
+        transform: rotate(-70deg);
+    }
+
+    100% {
+        left: 7%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-nft-left {
+    0% {
+        left: 7%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 20%;
+        -webkit-transform: rotate(-70deg);
+        transform: rotate(-70deg);
+    }
+
+    100% {
+        left: 7%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-nft-mob-blur-top {
+    display: none;
+    position: absolute;
+    width: 41.36px;
+    height: 23.66px;
+    top: 3%;
+    right: 45%;
+    -webkit-animation: rotate-nft-mob-under-top 30s linear infinite;
+    animation: rotate-nft-mob-under-top 30s linear infinite;
+}
+
+@-webkit-keyframes rotate-nft-mob-under-top {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotate-nft-mob-under-top {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+.detail-nft-mob-top {
+    display: none;
+    position: absolute;
+    width: 41.36px;
+    height: 23.66px;
+    top: 9%;
+    right: 35%;
+    -webkit-animation: move-and-rotate-nft-mob-top 8s linear infinite;
+    animation: move-and-rotate-nft-mob-top 8s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-nft-mob-top {
+    0% {
+        left: 35%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 48%;
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+
+    100% {
+        left: 35%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-nft-mob-top {
+    0% {
+        left: 35%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 48%;
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+
+    100% {
+        left: 35%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-nft-mob-right {
+    display: none;
+    position: absolute;
+    width: 88.46px;
+    height: 54.61px;
+    top: 17%;
+    right: 5%;
+    -webkit-animation: move-and-rotate-nft-mob-right 10s linear infinite;
+    animation: move-and-rotate-nft-mob-right 10s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-nft-mob-right {
+    0% {
+        right: 10%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: -15%;
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    100% {
+        right: 10%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-nft-mob-right {
+    0% {
+        right: 10%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: -15%;
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    100% {
+        right: 10%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-nft-mob-left-one {
+    display: none;
+    position: absolute;
+    width: 77.09px;
+    height: 44.1px;
+    top: 30%;
+    left: 26%;
+    -webkit-animation: move-and-rotate-nft-mob-left-one 10s linear infinite;
+    animation: move-and-rotate-nft-mob-left-one 10s linear infinite;
+    z-index: -1;
+}
+
+@-webkit-keyframes move-and-rotate-nft-mob-left-one {
+    0% {
+        left: 26%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: -25%;
+        -webkit-transform: rotate(-100deg);
+        transform: rotate(-100deg);
+    }
+
+    100% {
+        left: 26%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-nft-mob-left-one {
+    0% {
+        left: 26%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: -25%;
+        -webkit-transform: rotate(-100deg);
+        transform: rotate(-100deg);
+    }
+
+    100% {
+        left: 26%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-nft-mob-left-two {
+    display: none;
+    position: absolute;
+    width: 106.92px;
+    height: 61.17px;
+    top: 33%;
+    left: 19%;
+    -webkit-animation: move-and-rotate-nft-mob-left-two 17s linear infinite;
+    animation: move-and-rotate-nft-mob-left-two 17s linear infinite;
+    z-index: -1;
+}
+
+@-webkit-keyframes move-and-rotate-nft-mob-left-two {
+    0% {
+        left: 19%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: -25%;
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        left: 19%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-nft-mob-left-two {
+    0% {
+        left: 19%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: -25%;
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        left: 19%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-nft-mob-left-three {
+    display: none;
+    position: absolute;
+    width: 77.09px;
+    height: 44.1px;
+    top: 35%;
+    left: 13%;
+    -webkit-animation: move-and-rotate-nft-mob-left-three 15s linear infinite;
+    animation: move-and-rotate-nft-mob-left-three 15s linear infinite;
+    z-index: -1;
+}
+
+@-webkit-keyframes move-and-rotate-nft-mob-left-three {
+    0% {
+        left: 19%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 40%;
+        -webkit-transform: rotate(-100deg);
+        transform: rotate(-100deg);
+    }
+
+    100% {
+        left: 19%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-nft-mob-left-three {
+    0% {
+        left: 19%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 40%;
+        -webkit-transform: rotate(-100deg);
+        transform: rotate(-100deg);
+    }
+
+    100% {
+        left: 19%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-nft-mob-left-four {
+    display: none;
+    position: absolute;
+    width: 90.95px;
+    height: 60.4px;
+    top: 50%;
+    left: -8%;
+    -webkit-animation: move-and-rotate-nft-mob-left-four 20s linear infinite;
+    animation: move-and-rotate-nft-mob-left-four 20s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-nft-mob-left-four {
+    0% {
+        left: -18%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 25%;
+        -webkit-transform: rotate(-70deg);
+        transform: rotate(-70deg);
+    }
+
+    100% {
+        left: -18%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-nft-mob-left-four {
+    0% {
+        left: -18%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 25%;
+        -webkit-transform: rotate(-70deg);
+        transform: rotate(-70deg);
+    }
+
+    100% {
+        left: -18%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-nft-blur-mob-down {
+    display: none;
+    position: absolute;
+    width: 441.91px;
+    height: 379.59px;
+    top: 550px;
+    left: -15%;
+    -webkit-animation: move-and-rotate-blur-nft-down 20s linear infinite;
+    animation: move-and-rotate-blur-nft-down 20s linear infinite;
+}
+
+@-webkit-keyframes move-and-rotate-blur-nft-down {
+    0% {
+        left: -15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 17%;
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+
+    100% {
+        left: -15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-blur-nft-down {
+    0% {
+        left: -15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: 17%;
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+
+    100% {
+        left: -15%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-nft-mob-down {
+    display: none;
+    position: absolute;
+    width: 441.91px;
+    height: 379.59px;
+    top: 400px;
+    left: 35%;
+    -webkit-animation: rotate-nft-mob-down 60s linear infinite;
+    animation: rotate-nft-mob-down 60s linear infinite;
+}
+
+@-webkit-keyframes rotate-nft-mob-down {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotate-nft-mob-down {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+.detail-about-left {
+    position: absolute;
+    max-width: 276.41px;
+    max-height: 288.48px;
+    top: 51%;
+    left: -7%;
+    -webkit-animation: move-and-rotate-about-left 22s linear infinite;
+    animation: move-and-rotate-about-left 22s linear infinite;
+    z-index: -1;
+}
+
+.detail-about-left img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-about-left {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes move-and-rotate-about-left {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+.detail-about-right {
+    position: absolute;
+    max-width: 276.41px;
+    max-height: 288.48px;
+    top: 19%;
+    right: -7%;
+    -webkit-animation: move-and-rotate-about-right 22s linear infinite;
+    animation: move-and-rotate-about-right 22s linear infinite;
+    z-index: -1;
+}
+
+.detail-about-right img {
+    max-width: 100%;
+}
+
+@-webkit-keyframes move-and-rotate-about-right {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes move-and-rotate-about-right {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.detail-about-bottom-deep {
+    position: absolute;
+    max-width: 187.31px;
+    max-height: 107.16px;
+    bottom: 20%;
+    right: 31%;
+    -webkit-animation: move-and-rotate-bottom-deep 20s linear infinite;
+    animation: move-and-rotate-bottom-deep 20s linear infinite;
+    z-index: -1;
+}
+
+@-webkit-keyframes move-and-rotate-bottom-deep {
+    0% {
+        right: 31%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 47%;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    100% {
+        right: 31%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-bottom-deep {
+    0% {
+        right: 31%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 47%;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    100% {
+        right: 31%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-about-bottom-middle {
+    position: absolute;
+    max-width: 275.41px;
+    max-height: 157.56px;
+    bottom: 13%;
+    right: 27%;
+    -webkit-animation: move-and-rotate-bottom-middle 30s linear infinite;
+    animation: move-and-rotate-bottom-middle 30s linear infinite;
+    z-index: -1;
+}
+
+@-webkit-keyframes move-and-rotate-bottom-middle {
+    0% {
+        right: 31%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 15%;
+        -webkit-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+    100% {
+        right: 31%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-bottom-middle {
+    0% {
+        right: 31%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 15%;
+        -webkit-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+    100% {
+        right: 31%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.detail-about-bottom-front {
+    position: absolute;
+    max-width: 196.99px;
+    max-height: 112.69px;
+    bottom: 10%;
+    right: 23%;
+    -webkit-animation: move-and-rotate-bottom-front 40s linear infinite;
+    animation: move-and-rotate-bottom-front 40s linear infinite;
+    z-index: -1;
+}
+
+@-webkit-keyframes move-and-rotate-bottom-front {
+    0% {
+        right: 23%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 80%;
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        right: 23%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move-and-rotate-bottom-front {
+    0% {
+        right: 23%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right: 80%;
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        right: 23%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 1600px) {
+    .main-image {
+        max-width: 411.96px;
+        max-height: 457.96px;
+        top: 470px;
+    }
+}
+
+@media (max-width: 992px) {
+    .detail-page-left {
+        display: none;
+    }
+
+    .detail-page-right {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-image {
+        max-width: 411.96px;
+        max-height: 352.61px;
+        top: 430px;
+    }
+
+    .main-image {
+        width: 315.96px;
+    }
+
+    .detail-left {
+        display: none;
+    }
+
+    .detail-left-small {
+        display: none;
+    }
+
+    .detail-left-middle {
+        display: none;
+    }
+
+    .detail-left-down {
+        display: none;
+    }
+
+    .detail-right-top {
+        display: none;
+    }
+
+    .detail-right-undertop {
+        display: none;
+    }
+
+    .detail-right-middle {
+        display: none;
+    }
+
+    .detail-right-bottom {
+        display: none;
+    }
+
+    .detail-mob-top {
+        display: block;
+    }
+
+    .detail-mob-undertop {
+        display: block;
+    }
+
+    .detail-mob-middle {
+        display: block;
+    }
+
+    .detail-mob-left {
+        display: block;
+    }
+
+    .detail-mob-sharp-middle {
+        display: block;
+    }
+
+    .detail-mob-blur-middle {
+        display: block;
+    }
+
+    .detail-mob-bottom {
+        display: block;
+    }
+
+    .detail-mob-bottom-scale {
+        display: block;
+    }
+
+    .detail-nft-right {
+        display: none;
+    }
+
+    .detail-nft-left {
+        display: none;
+    }
+
+    .detail-nft-mob-blur-top {
+        display: block;
+    }
+
+    .detail-nft-mob-top {
+        display: block;
+    }
+
+    .detail-nft-mob-right {
+        display: block;
+    }
+
+    .detail-nft-mob-left-one {
+        display: block;
+    }
+
+    .detail-nft-mob-left-two {
+        display: block;
+    }
+
+    .detail-nft-mob-left-three {
+        display: block;
+    }
+
+    .detail-nft-mob-left-four {
+        display: block;
+    }
+
+    .detail-nft-blur-mob-down {
+        display: block;
+    }
+
+    .detail-nft-mob-down {
+        display: block;
+    }
+
+    .detail-about-left {
+        display: none;
+    }
+
+    .detail-about-right {
+        display: none;
+    }
+
+    .detail-about-bottom-deep {
+        bottom: 5%;
+    }
+
+    .detail-about-bottom-deep img {
+        width: 114.8px;
+    }
+
+    .detail-about-bottom-middle {
+        bottom: 3%;
+        -webkit-animation: move-and-rotate-bottom-middle 15s linear infinite;
+        animation: move-and-rotate-bottom-middle 15s linear infinite;
+    }
+
+    .detail-about-bottom-middle img {
+        width: 168.8px;
+    }
+
+    .detail-about-bottom-front {
+        -webkit-animation: move-and-rotate-bottom-front 20s linear infinite;
+        animation: move-and-rotate-bottom-front 20s linear infinite;
+        bottom: 1%;
+    }
+
+    .detail-about-bottom-front img {
+        width: 120.73px;
+    }
+}

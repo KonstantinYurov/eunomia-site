@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*---Подключение шрифтов--*/
+
+@import url("assets/css/dispatcher.min.css");
+
+/*---Переменные START---*/
+
+/*---Переменные END---*/
+
+.page-nft {
+    padding: 0 10px 0 10px;
+}
+
+.nft-background {
+    overflow: hidden;
+}
+
+.nft-background__svg {
+    width: 100%;
+    height: 100%;
+    background: url(../img/NFT.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nft {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nft__cotainer {
+    max-width: 1002px;
+}
+
+.nft__titile h1 {
+    font-family: "Monument Regular" sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100.5%;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(267.02deg, #F8F8F8 -20.21%, rgba(242, 242, 242, 0.84) 110.1%);
+    background: linear-gradient(182.98deg, #F8F8F8 -20.21%, rgba(242, 242, 242, 0.84) 110.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 67px 111px rgba(0, 0, 0, 0.44);
+    text-align: center;
+}
+
+@media (max-width: 1600px) {
+    .nft__titile h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nft__titile h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nft__titile {
+        margin-top: 180px;
+    }
+
+    .nft__titile h1 {
+        font-size: 28px;
+        line-height: 82%;
+    }
+}

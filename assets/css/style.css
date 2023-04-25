@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*---Подключение шрифтов--*/
+
+@import url("assets/css/dispatcher.min.css");
+
+/*---Переменные START---*/
+
+/*---Переменные END---*/
+
+.main-background {
+    height: 100%;
+}
+
+.main-background__svg {
+    width: 100%;
+    height: 100%;
+    background: url(../img/background-main-page.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name-company__container {
+    max-width: 975px;
+    margin: 0px auto;
+}
+
+.name-company__container h1 {
+    font-family: "Monument Regular" sans-serif;
+    font-weight: 700;
+    font-size: 170px;
+    line-height: 126.5%;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(267.29deg, #FFFFFF 10.81%, rgba(122, 122, 122, 0.84) 93.53%);
+    background: linear-gradient(182.71deg, #FFFFFF 10.81%, rgba(122, 122, 122, 0.84) 93.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 20px 100px rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+
+.project-button {
+    display: none;
+}
+
+.project-button__container {
+    max-width: 125px;
+    height: 41px;
+    margin: 0px auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: url(../img/background-button.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.project-button__container p {
+    font-family: "Onest Regular" sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: -webkit-linear-gradient(356.49deg, #B0B0B0 4.5%, #F1F1F1 58.75%, #B5B5B5 116.5%), #FFFFFF;
+    background: linear-gradient(93.51deg, #B0B0B0 4.5%, #F1F1F1 58.75%, #B5B5B5 116.5%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media (max-width: 992px) {
+    .name-company__container h1 {
+        font-size: 150px;
+    }
+
+    .name-company__web {
+        margin: 0 0 30px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .name-company__container h1 {
+        font-size: 75px;
+    }
+
+    .project-button {
+        display: block;
+        -webkit-tap-highlight-color: transparent;
+    }
+}

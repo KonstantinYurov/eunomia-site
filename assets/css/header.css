@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+/*---Подключение шрифтов--*/
+
+@import url("assets/css/dispatcher.min.css");
+
+/*-----------------------------Обнуляющие стили START-----------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+/* делает теги nav, footer, header. aside - блочными */
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+/* ниже параметры, которые уравнивают поведение шрифтов в этих тегах nav, footer, header. aside для разных браузеров, например, запрещают увеличение шрифтов на айфонах */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* здесь обращаемся к шрифтам в тегам form и просим наследовать их семейство шрифта, так как по умолчанию они его не наследуют  */
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+/* здесь так же чистим стили в некоторых тегах, лишние отступы и т.д */
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*-----------------------------Обнуляющие стили END-----------------------------*/
+
+/*---Адаптационный тег для изображений и фона START---*/
+
+.ibg {
+    padding: 0 0 100% 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.ibg img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bck {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*---Адаптационный тег для изображений и фона END---*/
+
+/*---Переменные START---*/
+
+/*---Переменные END---*/
+
+body {
+    margin: 0px auto;
+    font-family: "Onest Regular" sans-serif;
+    color: #b7b6b6;
+    font-size: 16px;
+    height: 100%;
+}
+
+body p {
+    font-family: "Onest Regular" sans-serif;
+    color: #b7b6b6;
+    font-size: 16px;
+}
+
+body h1 {
+    font-family: "Monument Regular" sans-serif;
+    font-size: 80px;
+    line-height: 126.5%;
+    letter-spacing: -0.025em;
+}
+
+body h2 h3 {
+    letter-spacing: -0.025em;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1760px;
+    margin: 0px auto;
+}
+
+.hull {
+    max-width: 1170px;
+}
+
+.shell {
+    max-width: 1720px;
+}
+
+.header {
+    margin: 0px auto;
+    padding: 104px 0 76px 0;
+    z-index: 1;
+}
+
+.nav__container {
+    max-width: 892px;
+    height: 41px;
+    margin: 0px auto;
+}
+
+.nav__menu ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nav__menu li {
+    font-family: "Onest Regular" sans-serif;
+    font-size: 21.2766px;
+    line-height: 128.5%;
+    color: #b7b6b6;
+}
+
+.nav__menu a {
+    color: #b7b6b6;
+}
+
+.nav__menu a:hover {
+    color: #cfcfcf;
+}
+
+.nav__burger-icon {
+    display: none;
+}
+
+.logo__mob {
+    display: none;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-mobile__item {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.nav-mobile__container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 85px;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 49px 0 0 0;
+}
+
+.nav-mobile__cross {
+    padding: 0 0 50px 0;
+    margin: 0 0 0 100%;
+}
+
+.nav-mobile__list li {
+    font-family: "Onest Regular" sans-serif;
+    font-weight: 400;
+    font-size: 19.3803px;
+    line-height: 25px;
+    text-align: right;
+    color: #b5b5b5;
+    padding: 0 0 50px 0;
+}
+
+.nav-mobile__list a {
+    color: #b5b5b5;
+}
+
+.active {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 45px 0 40px 0;
+    }
+
+    .nav__menu {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        max-width: 767px;
+        padding: 0 15px 0 0;
+    }
+
+    .nav__menu li:nth-child(1),
+  .nav__menu li:nth-child(2),
+  .nav__menu li:nth-child(5),
+  .nav__menu li:nth-child(6) {
+        display: none;
+    }
+
+    .nav__burger-icon {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo__mob {
+        display: block;
+        height: 24.65px;
+        padding: 0 0 0 10px;
+    }
+
+    .logo__mob img {
+        height: 24.65px;
+    }
+
+    .nav-mobile {
+        position: absolute;
+        opacity: 0;
+        -webkit-transition: opacity 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+        background: -webkit-linear-gradient(276.45deg, #090909 16.32%, #22120D 78.47%);
+        background: linear-gradient(173.55deg, #090909 16.32%, #22120D 78.47%);
+        width: 50%;
+        right: 0;
+        top: 0;
+        height: 100%;
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+        z-index: 2;
+        display: block;
+    }
+
+    .active {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+        -webkit-transition: opacity 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+        display: block;
+    }
+}
